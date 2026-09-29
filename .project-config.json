@@ -1,0 +1,42 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [
+    "server",
+    "db",
+    "user"
+  ],
+  "dev_command": "pnpm run dev",
+  "env_vars": {
+    "DATABASE_URL": "mysql://yfsQjviVwi6q5wK.642259ef9e0c:xk1w3SXHcd91WdeGv3s4@gateway03.us-east-1.prod.aws.tidbcloud.com:4000/WroWh58MgE25apBgAciGgV?ssl={\"rejectUnauthorized\":true}"
+  },
+  "experiments": [
+    "no_db_push"
+  ],
+  "git_remote": {
+    "repo_url": "https://7f0548f6b28a1758d9bf7be630d36cb4.artifacts.cloudflare.net/git/prod/WroWh58MgE25apBgAciGgV.git",
+    "expiration": "2026-09-09T09:06:46.420Z",
+    "token": "art_v2_x_8189fe66083ebdfa17a842410cd4c0398e7eecbc?expires=1788944806",
+    "backend": "GIT_BACKEND_ARTIFACTS"
+  },
+  "name": "bhoomi-sentinel",
+  "path": "/home/ubuntu/bhoomi-sentinel",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "VQnnQgAVccMPVubdptwMTP",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "JWT_SECRET": "S32URHPZd8kGrdiGYXuZJg",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "Gopika S",
+    "OWNER_OPEN_ID": "5MXGwxsnmAt9gsyNetvzE6",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "7caa4246-200f-483a-9cc3-2a0cb6673d45",
+    "VITE_APP_ID": "WroWh58MgE25apBgAciGgV",
+    "VITE_APP_LOGO": "",
+    "VITE_APP_TITLE": "Bhoomi Sentinel — Intelligent Land Record Digitization and Validation System",
+    "VITE_FRONTEND_FORGE_API_KEY": "cw5YYW8t8aVqDrhhUeUgVe",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "web-db-user",
+  "test_command": "pnpm test"
+}
